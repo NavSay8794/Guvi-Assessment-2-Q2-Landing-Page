@@ -1,0 +1,139 @@
+body{
+    background-color: #eeeeee;
+}
+
+.container{
+    width: 40vw;
+    /* border: 1px solid black; */
+    height: 100%;
+    margin: auto;
+}
+
+/* navigation bar */
+.navSection{
+    position: relative;
+    display: flex;
+    width: 100%; 
+    height: 8%;
+    margin-top: 10px;
+}
+
+.brand{
+    flex: 50%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    padding: 15px 20px 15px 2px;
+}
+.alignment{
+    flex: 50%;
+    text-align: right;
+    padding: 15px 5px 15px 20px ;
+}
+
+.btn{
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    color: rgb(1, 79, 248);
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.active , .btn:hover{
+    background-color: rgb(1, 79, 248);
+    color: white;
+}
+
+
+/* Jumbotron part */
+.jumbotron{
+    position: relative;
+    width: 100%;
+    background-color: #dddddd;
+    height: 47%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;  
+    padding: 40px 5px 5px;  
+}
+
+.detail1{
+    text-align: center;
+    padding: 0 35px 10px 35px;
+    margin-bottom: 5px;
+}
+
+.sign-up{
+    position: relative;
+    width: 25%;
+    text-align: center;
+    left: 38%;
+    height: 15%;
+
+}
+
+.signup-btn{
+    color: #fff;
+    background-color: #0ccf26;
+    border-color: #11cc30;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.launch-demo{
+    position: relative;
+    width: 35%;
+    text-align: center;
+    left: 33%;
+    height: 15%;
+    margin: 10px 0 0;
+}
+
+.launch-btn{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff ;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* two column part */
+
+.row{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    
+}
+
+.column{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subhead1{
+    
+    width: 94%;
+    height: 33%;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+    font-size: 1.5rem;
+    padding: 5px 15px 10px 0;
+}
